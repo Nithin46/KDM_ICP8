@@ -39,6 +39,9 @@
         <ObjectProperty IRI="#Build"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#Written"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasFunctional"/>
     </Declaration>
     <Declaration>
@@ -124,6 +127,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#Build"/>
             <Class IRI="#LearningAlgorithms"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Written"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#Written"/>
+            <Class IRI="#C_sharp"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <FunctionalDataProperty>
